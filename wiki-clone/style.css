@@ -1,0 +1,28 @@
+h1 {
+  background-color: antiquewhite;
+  border: 2px solid;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.card {
+  background-color: azure;
+  border: 1px solid rgb(255, 145, 0);
+  border-radius: 12px;
+  box-shadow: 5px 5px 20px 3px;
+  padding: 15px;
+}
+.card1 {
+  background-color: rgb(164, 208, 208);
+  border: 1px solid rgb(157, 104, 5);
+  border-radius: 10px;
+  box-shadow: 10px 5px 10px 5px;
+  padding: 10px;
+}
+
+h2 {
+  background-color: antiquewhite;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
