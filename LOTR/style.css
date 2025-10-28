@@ -27,14 +27,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 8px; */
+  padding: 8px;
 }
 .main-text h2 {
   padding-left: 4px;
 }
 .main-text h3 {
   padding: 12px;
-  padding-left: 22px;
+  padding-left: 26px;
   font-size: 13px;
   margin-left: 24px;
   margin-right: 24px;
@@ -63,14 +63,14 @@
   justify-content: space-between;
 }
 .button-style .btn-hover:hover {
-  background: rgb(18, 82, 179);
+  background: rgb(57, 129, 237);
   cursor: pointer;
 }
 .btn-hover {
   border-radius: 12px;
 }
 .btn-read {
-  border-radius: 12px;
+  border-radius: 8px;
  
 }
 .button .btn-read:hover {
