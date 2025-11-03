@@ -1,0 +1,355 @@
+body {
+  margin: 0;
+  background-image: url(images/site-bg.jpg);
+  background-size: cover;
+}
+.header {
+  /* border: 1px solid black; */
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  margin-top: 24px;
+  background: url(images/mainNav_large_bg_tile.png);
+  position: sticky;
+  top: 0;
+}
+#LOGO-main {
+  /* display: flex; */
+
+  width: 280px;
+  height: 100;
+  /* padding-top: 20px; */
+}
+
+.header-left {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+  color: white;
+  padding-right: 200px;
+  font-size: x-large;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.scale:hover {
+  box-shadow: 0px 0px 25px, inset 2px 2px 10px;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.play-free #free {
+  background: url(images/main_CTA_sprite_EN_green_navLarge.png);
+}
+
+.play-free #free:hover {
+  box-shadow: 0 0 25px,
+    inset 0 0 10px rgb(rgb(231, 231, 231), rgb(255, 255, 255), rgb(2, 2, 221));
+  transform: scale(1.05);
+  cursor: pointer;
+}
+#free {
+  width: 360px;
+  height: 85px;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 50px;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium";
+  gap: 20px;
+}
+.play-free .play-free-ring {
+  background-image: url(images/main_CTA_ring.png);
+
+  width: 35px;
+  height: 30px;
+}
+
+.fb .socials {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fb .socials:hover {
+  color: #1873eb;
+  cursor: pointer;
+}
+.yt .socials {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yt .socials:hover {
+  color: red;
+  cursor: pointer;
+}
+.X .socials {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.X .socials:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.twitch .socials {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.twitch .socials:hover {
+  color: #8c44f7;
+  cursor: pointer;
+}
+
+.discord .socials {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.discord .socials:hover {
+  color: #5562ea;
+  cursor: pointer;
+}
+
+.harad {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+
+/* CARDS */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 400px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.card {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 420px;
+  background: url(https://i.pinimg.com/564x/56/38/6d/56386d8c2744d3cf1d406260916ea3f7.jpg);
+  border-radius: 14px;
+  background-size: contain;
+  background-position: bottom;
+}
+
+#card-pic {
+  width: 300px;
+  border-radius: 12px;
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.main-text h2 {
+  padding-left: 4px;
+}
+.main-text h3 {
+  padding: 12px;
+  padding-left: 26px;
+  font-size: 13px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-size: medium;
+}
+.main-text .button {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2px;
+}
+
+.footer .share {
+  display: flex;
+  justify-content: center;
+  padding-top: 2px;
+}
+.footer .button2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2px;
+  justify-content: space-between;
+  padding-bottom: 36px;
+}
+.button-style .btn-hover:hover {
+  background: rgb(160, 106, 40);
+  cursor: pointer;
+}
+.btn-hover {
+  border-radius: 12px;
+}
+.btn-read {
+  border-radius: 8px;
+}
+.button .btn-read:hover {
+  background-color: rgb(57, 33, 4);
+  color: white;
+  cursor: pointer;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 400px;
+  padding-top: 60px;
+  padding-bottom: 12px;
+}
+.main-text3 h2 {
+  padding-left: 36px;
+}
+.main-text3 h3 {
+  padding: 12px;
+  padding-left: 26px;
+  font-size: 13px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-size: medium;
+}
+.main-text3 .button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+#main-txt2 {
+  margin-top: 6px;
+}
+
+.Filter-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 500px;
+  padding-bottom: 20px;
+  position: sticky;
+  top: 80px;
+}
+.lists {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+  gap: 30px;
+  color: rgb(239, 239, 239);
+}
+
+.watch:hover,
+.news:hover,
+.guides:hover,
+.notes:hover,
+.ALL:hover {
+  color: #f1e38e;
+  cursor: pointer;
+}
+.Legal {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  color: rgb(167, 167, 167);
+}
+.Legal ul {
+  display: inline-block;
+  padding: 0px 50px;
+  border-left: 1px solid;
+}
+ul:first-child {
+  border-left: none;
+}
+.Legal-N:hover,
+.Privacy:hover,
+.Terms:hover,
+.Warning:hover,
+.Cookies:hover,
+.Preferences:hover,
+.Conduct:hover,
+.Agreement:hover {
+  color: #f1e38e;
+  cursor: pointer;
+}
+.bottom-imgs {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  padding-top: 30px;
+}
+.ssg-logo {
+  padding-left: 300px;
+}
+.esrb {
+  padding-right: 320px;
+  padding-left: 100px;
+}
+.dgc {
+  padding-left: 100px;
+}
+.m-earth {
+  padding-left: 100px;
+}
+.rating {
+  padding-left: 60px;
+}
+.bottom-txt {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: smaller;
+}
+.bottom-txt h4 {
+  padding-left: 250px;
+}
+.option-lng {
+  padding-right: 400px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
