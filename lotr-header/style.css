@@ -179,29 +179,20 @@ body {
 /* CARDS */
 
 .main-container {
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  padding: 40px; */
+  padding: 40px;
 
-   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  /* align-items: center;
-  /* gap: 20px;
-  height: 1200px;
-  width: 1400px; */ 
+  align-items: center;
+  gap: 20px;
 }
 
 .container {
-  /* display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   align-items: center;
-  gap: 20px;
-  height: 1200px;
-  width: 1400px; */
-  display: flex;
-  flex-direction: row;
+  gap: 60px;
 }
 .card {
   border: 1px solid black;
@@ -350,7 +341,7 @@ ul:first-child {
   justify-content: center;
   align-items: center;
   gap: 20px;
-padding: 20px;
+  padding: 20px;
   color: white;
   font-size: smaller;
 }
@@ -358,8 +349,6 @@ padding: 20px;
   width: 700px;
   padding: 12px;
 }
-
-
 
 /* MEDIA Q */
 
